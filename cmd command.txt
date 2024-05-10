@@ -1,0 +1,5 @@
+pyinstaller morpion.py --icon=C:\Users\Joshua\OneDrive\Images\Icons\morpion_jo.ico -F --noconsole
+
+pyinstaller main.py --icon=C:\Users\Joshua\OneDrive\Images\Icons\J_dodge.ico -F --noconsole 
+
+pyinstaller run.py --onefile --exclude matplotlib --exclude scipy --exclude pandas --icon=C:\Users\Joshua\OneDrive\Images\Icons\J_dodge.ico -F --noconsole 
